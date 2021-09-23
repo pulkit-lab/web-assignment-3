@@ -8,12 +8,18 @@
     <title>descendant selector case</title>
 
     <style>
-        article ol li{
+        div p{
+            color: red;
+        }
+        article>ol>li{
             background-color: yellow;
         }
     </style>
 </head>
 <body>
+    <div>
+        <p>This is descendant selector css</p>
+    </div>
     <article>
         <ol>
             <li>ordered list item 1</li>
