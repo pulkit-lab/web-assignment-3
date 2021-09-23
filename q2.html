@@ -1,0 +1,29 @@
+<!-- 2.Use two classes “ad” and “sd”, “ad” will change the color to blue, and “sd” will change the background color of elements to red. Now, both classes together will change the font style to italics use them in the <p> tag. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes ad and sd</title>
+
+    <style>
+        .ad{
+            color: blue;
+        }
+
+        .sd{
+            background-color: red;
+        }
+
+        .ad.sd{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <p class="ad">This is ad class</p>
+    <p class="sd">This is sd class</p>
+    <p class="ad sd">This is ad + sd class</p>
+</body>
+</html>
